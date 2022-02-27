@@ -1,8 +1,8 @@
 import P from 'prop-types';
 
-export const Button = ({ children, onButtonClick, disabled = false }) => {
+export const Button = ({ children, onButtonClick, disabled }) => {
   return (
-    <button disabled={disabled} style={{ fontSize: '60px' }} onClick={onButtonClick}>
+    <button disabled={disabled} style={{ fontSize: '30px' }} onClick={onButtonClick}>
       {children}
     </button>
   );
